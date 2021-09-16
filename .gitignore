@@ -1,0 +1,9 @@
+.vs
+features
+node_modules
+stepDefinitions
+build/*
+!build/.gitKeep
+cucumberConf.ts 
+debug.log
+testResults/

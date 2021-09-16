@@ -1,0 +1,42 @@
+{
+  "name": "qatest",
+  "version": "1.0.0",
+  "description": "Automation qa test",
+  "main": "conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:skuvault/qa-automation-test.git"
+  },
+  "scripts": {
+    "webdriver-manager": "./node_modules/.bin/webdriver-manager status",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "webdriver-start": "./node_modules/.bin/webdriver-manager start",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "QaTest": "tsc &&protractor build/conf.js --suite automationQaTest"
+  },
+  "devDependencies": {
+    "protractor-cucumber-framework": "6.2.1"
+  },
+  "dependencies": {
+    "@types/cucumber": "^6.0.1",
+    "@types/jasmine": "^3.7.7",
+    "@types/jasminewd2": "^2.0.9",
+    "@types/node": "^14.17.3",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "csv": "5.3.2",
+    "csv-writer": "^1.6.0",
+    "cucumber": "^6.0.5",
+    "jasmine": "^3.7.0",
+    "jasmine-console-reporter": "3.1.0",
+    "jasmine-data-provider": "2.2.0",
+    "jasmine-reporters": "2.4.0",
+    "jasmine-spec-reporter": "7.0.0",
+    "moment": "^2.29.1",
+    "npm": "^7.17.0",
+    "protractor": "7.0.0",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.3.2"
+  }
+}
