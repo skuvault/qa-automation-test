@@ -65,3 +65,5 @@ Be sure to review the page and see what kind of validation gets fired when all t
 Please try and use an assertion to test what happens after the button "Get My Demo" is pressed with all invormation filled out.
 
 Use Page Object Model design pattern to store all web elements used for testing.
+
+Please include the word test in the FirstName and LastName fields
