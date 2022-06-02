@@ -33,7 +33,7 @@
     "jasmine-reporters": "2.4.0",
     "jasmine-spec-reporter": "7.0.0",
     "moment": "^2.29.1",
-    "npm": "^7.17.0",
+    "npm": "^8.11.0",
     "protractor": "7.0.0",
     "protractor-jasmine2-html-reporter": "0.0.7",
     "ts-node": "^9.1.1",
